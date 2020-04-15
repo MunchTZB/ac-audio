@@ -25,7 +25,9 @@ import x from "./x.mp3";
 import y from "./y.mp3";
 import z from "./z.mp3";
 
-export const alphabet = {
+export const alphabet: {
+  [key: string]: string;
+} = {
   a,
   b,
   c,
